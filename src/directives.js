@@ -224,7 +224,6 @@ angular.module('angular-datepicker', [])
                 function reinitPickATime() {
                     initPickATime();
                     if (element.pickatime('picker')) {
-                        element.pickatime('picker').changeSettings(options);
 
                         if (scope.pickATime) {
                             element.pickatime('picker').set('select', scope.pickATime);
