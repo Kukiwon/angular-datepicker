@@ -103,8 +103,6 @@ angular.module('angular-datepicker', [])
                 function reinitPickADate() {
                     initPickADate();
                     if (element.pickadate('picker')) {
-                        element.pickadate('picker').changeSettings(options);
-
                         if (scope.pickADate) {
                             element.pickadate('picker').set('select', scope.pickADate);
                         }
